@@ -1,0 +1,228 @@
+{
+    "orders": [
+        {
+            "orderId": "ORD-0001",
+            "customerName": "Ravi Kumar",
+            "phone": "9876543210",
+            "items": [
+                {
+                    "type": "Shirt",
+                    "quantity": 2,
+                    "price": 50
+                },
+                {
+                    "type": "Pants",
+                    "quantity": 1,
+                    "price": 80
+                }
+            ],
+            "totalAmount": 180,
+            "status": "DELIVERED",
+            "dateCreated": "2024-01-15T10:30:00Z"
+        },
+        {
+            "orderId": "ORD-0002",
+            "customerName": "Elena Rodriguez",
+            "phone": "9876543211",
+            "items": [
+                {
+                    "type": "Saree",
+                    "quantity": 1,
+                    "price": 100
+                }
+            ],
+            "totalAmount": 100,
+            "status": "PROCESSING",
+            "dateCreated": "2024-01-15T11:15:00Z"
+        },
+        {
+            "orderId": "ORD-0003",
+            "customerName": "Jameson Blake",
+            "phone": "9876543212",
+            "items": [
+                {
+                    "type": "Shirt",
+                    "quantity": 3,
+                    "price": 50
+                }
+            ],
+            "totalAmount": 150,
+            "status": "READY",
+            "dateCreated": "2024-01-15T09:45:00Z"
+        },
+        {
+            "orderId": "ORD-0004",
+            "customerName": "Ravi KumarRavi Kumar",
+            "phone": "9876543210",
+            "items": [
+                {
+                    "type": "Shirt",
+                    "quantity": 2
+                }
+            ],
+            "totalAmount": 105,
+            "status": "RECEIVED",
+            "dateCreated": "2026-04-19T17:32:46.899Z"
+        },
+        {
+            "orderId": "ORD-0005",
+            "customerName": "Ravi KumarRavi Kumar",
+            "phone": "9876543210",
+            "items": [
+                {
+                    "type": "Shirt",
+                    "quantity": 2
+                }
+            ],
+            "totalAmount": 105,
+            "status": "RECEIVED",
+            "dateCreated": "2026-04-19T17:33:56.306Z"
+        },
+        {
+            "orderId": "ORD-0006",
+            "customerName": "Ravi KumarRavi Kumar",
+            "phone": "9876543210",
+            "items": [
+                {
+                    "type": "Shirt",
+                    "quantity": 2
+                }
+            ],
+            "totalAmount": 105,
+            "status": "RECEIVED",
+            "dateCreated": "2026-04-19T17:34:55.007Z"
+        },
+        {
+            "orderId": "ORD-0007",
+            "customerName": "Ravi KumarRavi Kumar",
+            "phone": "9876543210",
+            "items": [
+                {
+                    "type": "Shirt",
+                    "quantity": 2
+                }
+            ],
+            "totalAmount": 105,
+            "status": "RECEIVED",
+            "dateCreated": "2026-04-19T17:36:06.280Z"
+        },
+        {
+            "orderId": "ORD-0008",
+            "customerName": "Ravi KumarRavi Kumar",
+            "phone": "9876543210",
+            "items": [
+                {
+                    "type": "Shirt",
+                    "quantity": 2
+                }
+            ],
+            "totalAmount": 105,
+            "status": "RECEIVED",
+            "dateCreated": "2026-04-19T17:37:24.525Z"
+        },
+        {
+            "orderId": "ORD-0009",
+            "customerName": "Ravi Kumar",
+            "phone": "9876543210",
+            "items": [
+                {
+                    "type": "Shirt",
+                    "quantity": 3
+                }
+            ],
+            "totalAmount": 157.5,
+            "status": "RECEIVED",
+            "dateCreated": "2026-04-19T17:48:48.727Z"
+        },
+        {
+            "orderId": "ORD-0010",
+            "customerName": "Ravi Kumar",
+            "phone": "9876543210",
+            "items": [
+                {
+                    "type": "Suit",
+                    "quantity": 1
+                }
+            ],
+            "totalAmount": 262.5,
+            "status": "RECEIVED",
+            "dateCreated": "2026-04-19T18:11:02.430Z"
+        }
+    ],
+    "tickets": [
+        {
+            "ticketId": "TKT-001",
+            "customerName": "Ravi Kumar",
+            "subject": "Delivery Delay",
+            "message": "My order ORD-0001 is still not delivered.",
+            "status": "OPEN"
+        },
+        {
+            "ticketId": "TKT-002",
+            "customerName": "abdul",
+            "subject": "hello",
+            "message": "hii",
+            "status": "OPEN"
+        },
+        {
+            "ticketId": "TKT-003",
+            "customerName": "Ravi Kumar",
+            "subject": "[Order ORD-0001] yeye",
+            "message": "yeyeyeye",
+            "status": "OPEN"
+        }
+    ],
+    "pricing": {
+        "Shirt": 50,
+        "Pants": 80,
+        "Saree": 100,
+        "T-shirt": 40,
+        "Suit": 250
+    },
+    "users": [
+        {
+            "id": "USR-0001",
+            "name": "Admin Master",
+            "email": "admin@atelier.com",
+            "password": "admin123",
+            "role": "admin"
+        },
+        {
+            "id": "USR-0002",
+            "name": "Ravi Kumar",
+            "email": "ravi@example.com",
+            "password": "ravi123",
+            "role": "customer",
+            "address": "xyz",
+            "phone": "0987654321"
+        },
+        {
+            "id": "USR-0003",
+            "name": "Elena Rodriguez",
+            "email": "elena@example.com",
+            "password": "elena123",
+            "role": "customer"
+        },
+        {
+            "id": "USR-0004",
+            "name": "Jameson Blake",
+            "email": "jameson@example.com",
+            "password": "jameson123",
+            "role": "customer"
+        },
+        {
+            "id": "USR-0005",
+            "name": "abdul",
+            "email": "abdul@gmail.com",
+            "password": "abdul123",
+            "role": "customer"
+        },
+        {
+            "id": "USR-0006",
+            "name": "rahman",
+            "email": "rahman@gmail.com",
+            "password": "rahman123",
+            "role": "admin"
+        }
+    ]
+}
